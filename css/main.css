@@ -1,0 +1,26 @@
+.color-box{
+    position: fixed;
+    top: 200px;
+    left: 0;
+    z-index: 5;
+}
+.color-option{
+    padding: 15px;
+    /* background-color: #ff305b; */
+    background-color: lightslategray;
+    height: 100px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+.color-option ul li{
+    width: 25px;
+    height: 25px;
+    background-color: teal;
+    display: inline-block;
+}
+.color-box i{
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    height: 50%;
+}
